@@ -12,17 +12,23 @@ sudo yum install ppp pptpd -y
 gedit /etc/pptpd.conf
 ```
 進去後，拉到最下面新增
-localip=伺服器跑起來的ip 
-remoteip=撥接起來的ip 
 ```
 localip 10.0.10.1
+\\localip=伺服器跑起來的ip 
 remoteip 10.0.10.2-254
+\\remoteip=撥接起來的ip 
 ```
 #### 4.修改/etc/ppp/options.pptpd
 ```
-gedit/etc/ppp/options.pptpd
+gedit /etc/ppp/options.pptpd
 ```
 修改ms-dns
 ```
 ms-dns 8.8.8.8
 ms-dns 1.1.1.1
+```
+#### 5.設定帳號密碼/etc/ppp/chap-secrets
+```
+username pptpd password *
+//帳號名稱 伺服器名稱  密碼 來源ip(*=萬用字元)
+```
