@@ -26,4 +26,3 @@ gedit/etc/ppp/options.pptpd
 ```
 ms-dns 8.8.8.8
 ms-dns 1.1.1.1
-``
