@@ -43,5 +43,5 @@ systemctl status pptpd
 ```
 ## Windows操作部分
 #### 1.網路設定(VPN)，按照下圖設定
-<# img src="https://github.com/syuan0327/linux2/blob/master/vpn.JPG"width=50,height=50>
+<img src="https://github.com/syuan0327/linux2/blob/master/vpn.JPG"width="50",height="50">
 
