@@ -24,7 +24,7 @@ remoteip 10.0.10.2-254
 ```
 gedit /etc/ppp/options.pptpd
 ```
-修改ms-dns
+修改ms-dns，把兩個 ms-dns前面#去掉
 ```
 ms-dns 8.8.8.8
 ms-dns 1.1.1.1
