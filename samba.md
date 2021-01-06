@@ -31,10 +31,17 @@ systemctl status smb
 創建samba的帳密
 `註：`必須先創一個帳號，這裡使用的是自己本身就有的帳號(user)
 ```
-smbpasswd –a user
+smbpasswd -a user
 ```
-輸入密碼
+<img src='<img src="https://github.com/syuan0327/linux2/blob/master/samba.jpg">'>
 
-ifconfig查看ip位址，並在windows左下角搜尋處輸入ip，進去後就可以輸入帳密進入user，並在裡面新增檔案，如果兩邊檔案有同步就代表成功了。
+ifconfig查看ip位址，並在windows左下角搜尋處輸入ip
+
+<img src='<img src="https://github.com/syuan0327/linux2/blob/master/samba2.jpg">'>
+
+進去後就可以輸入帳密進入user，並在裡面新增檔案，如果兩邊檔案有同步就代表成功了。
+
+<img src='<img src="https://github.com/syuan0327/linux2/blob/master/samba3.jpg">'>
+
 
 
