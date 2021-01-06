@@ -33,5 +33,6 @@ scp -r /home/test 192.168.xx.xx:/home/get
 mkdir get
 ```
 進入get目錄，輸入`ls`會發現裡面有test目錄，裡面放又從第一台傳來的txt檔
+
 <img src="https://github.com/syuan0327/linux2/blob/master/li2.JPG">
 
