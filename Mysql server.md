@@ -27,6 +27,7 @@ mysql -u root -p
 输入之前設定的密碼
 
 MariaDB [(none)]> show databases;
+
 <img src='https://github.com/syuan0327/linux2/blob/master/mysql.jpg'>
 
 然後輸入
@@ -42,7 +43,8 @@ create table Persons (
 );
 ```
 MariaDB [testdb]> show tables;
-<img src='https://github.com/syuan0327/linux2/blob/master/tables.'>
+
+<img src='https://github.com/syuan0327/linux2/blob/master/tables.jpg'>
 
 接著做以下動作
 ```
@@ -58,6 +60,7 @@ MariaDB [(testdb)]> show tables;
 MariaDB [(testdb)]> select * from Persons;
 ```
 結果：
+
 <img src='https://github.com/syuan0327/linux2/blob/master/result.jpg'>
 
 ## 將結果顯示在網頁上
