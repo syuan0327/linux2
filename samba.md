@@ -33,7 +33,7 @@ systemctl status smb
 ```
 smbpasswd -a user
 ```
-<img src="https://github.com/syuan0327/linux2/blob/master/samba.jpg" weight=50%>
+<img src="https://github.com/syuan0327/linux2/blob/master/samba.jpg" weight="50">
 
 ifconfig查看ip位址，並在windows左下角搜尋處輸入ip
 
