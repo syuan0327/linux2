@@ -6,7 +6,7 @@ No2網卡：1.內部網路(代表第二台主機)
 ```
 systemctl stop firewalld
 ```
-## No2
+#### No2
 
 清除enp0s3的ip
 ```
@@ -22,7 +22,7 @@ ip route add defaule via 192.168.1.1
 ```
 使用`ip route show`查看是否有設定好
 
-## No1
+#### No1
 
 dhclient命令 – 動態獲取或釋放IP位址
 ```
@@ -52,7 +52,7 @@ iptables -A FORWARD -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 ```
 iptables -t nat -A POSTROUTING -o enp0s3 -s 192.168.1.0/24 -j MASQUERADE
 ```
-## No2
+#### No2
 
 輸入vim /etc/resolv.conf，把nameserver改成8.8.8.8
 
