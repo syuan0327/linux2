@@ -1,14 +1,14 @@
 ## DHCP(動態主機設定協定)
 ## 網卡設定
-`註：`這裡的NO1,NO2代表的是主機的號碼
-
 No1 1.nat 2.僅限主機(貼上後關掉) 3.內部
 
 No2 1.內部
 
+`註：`這裡的NO1,NO2代表的是主機的號碼
+
 `註：`這邊第一台主機設僅限主機網卡的原因是因為等下有設定檔要進行修改，而我的虛擬機是沒有安裝可以複製不同台內容的套件，因此這邊是直接用putty進行複製!
 
-如果忘記如何用putty，或部會使用，可以參考:[點我](https://github.com/syuan0327/Linux-note/tree/master/%E9%80%A3%E4%B8%8Aputty)
+如果忘記如何用putty，或不會使用，可以參考:[點我](https://github.com/syuan0327/Linux-note/tree/master/%E9%80%A3%E4%B8%8Aputty)
 
 ## 實作
 #### No1
