@@ -52,7 +52,7 @@ iptables -A FORWARD -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 ```
 iptables -t nat -A POSTROUTING -o enp0s3 -s 192.168.1.0/24 -j MASQUERADE
 ```
-4.no2
+4.	No2
 
 輸入vim /etc/resolv.conf，把nameserver改成8.8.8.8
 
