@@ -33,15 +33,15 @@ systemctl status smb
 ```
 smbpasswd -a user
 ```
-<img src="https://github.com/syuan0327/linux2/blob/master/samba.jpg">
+<img src="https://github.com/syuan0327/linux2/blob/master/samba.jpg" width="80%" height="80%">
 
 ifconfig查看ip位址，並在windows左下角搜尋處輸入ip
 
-<img src="https://github.com/syuan0327/linux2/blob/master/samba2.jpg">
+<img src="https://github.com/syuan0327/linux2/blob/master/samba2.JPG" width="80%" height="80%">
 
 進去後就可以輸入帳密進入user，並在裡面新增檔案，如果兩邊檔案有同步就代表成功了。
 
-<img src="https://github.com/syuan0327/linux2/blob/master/samba3.jpg">
+<img src="https://github.com/syuan0327/linux2/blob/master/samba3.JPG" width="80%" height="80%">
 
 
 
