@@ -82,5 +82,5 @@ touch {1..3}
 ls
 ```
 ## 結果顯示
-<img src="https://github.com/syuan0327/linux2/blob/master/nfs.JPG" >
+<img src="https://github.com/syuan0327/linux2/blob/master/nfs.jpg" >
 
