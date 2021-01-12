@@ -44,4 +44,4 @@ echo $today;
 ```
 連入 自己的ip/time.php
 
-img src="<img src="https://github.com/syuan0327/linux2/blob/master/phptime.jpg">
+<img src="https://github.com/syuan0327/linux2/blob/master/phptime.jpg">
