@@ -26,4 +26,4 @@
 [NFS伺服器](https://github.com/syuan0327/linux2/blob/master/NFS%E4%BC%BA%E6%9C%8D%E5%99%A8.md)
 
 #### httpd
-[php]()
+[php](https://github.com/syuan0327/linux2/blob/master/php.md)
